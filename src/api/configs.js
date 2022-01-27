@@ -1,0 +1,1 @@
+export const ENDPOINT = 'https://community-open-weather-map.p.rapidapi.com/forecast/daily'
