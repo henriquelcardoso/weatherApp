@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { tempDetails, generalDetails, iconUrl, month } from '../../config/weatherConfigs';
-import { getKeyFromString, getWeekDay } from '../../utils/utils';
+import { getWeekDay } from '../../utils/utils';
 import Image from 'next/image';
 const Wrapper = styled.div`
   display: flex;

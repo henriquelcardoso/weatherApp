@@ -12,11 +12,3 @@ export const isToday = (someDate) => {
         someDate.getMonth() == today.getMonth() &&
         someDate.getFullYear() == today.getFullYear()
 }
-
-export const getKeyFromString = (root, string) => {
-    console.log(string);
-    const splits = string.split('.')
-    console.log(splits);
-    console.log(root[splits]);
-    return root[splits]
-}

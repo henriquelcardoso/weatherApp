@@ -11,7 +11,7 @@ const Wrapper = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: ${props => (props.isSelected && `#e65c5ca4`)};
+    background-color: ${props => (props.isSelected && `#5cd3e6a4`)};
 `;
 
 const CityName = styled.div`
